@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+   <project name="Hello World Project" default="info">
+   
+   <property file="build.properties"/>
+
+   <target name="info">
+      <echo>Hello World - Welcome to Apache Ant! this is testing</echo>
+      <echo>Apache Ant version is ${ant.version} - You are at ${sitename} </echo>
+      <echo>Build version is ${buildversion} </echo>
+   </target>
+   
+</project>
